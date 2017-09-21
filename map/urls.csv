@@ -57,6 +57,7 @@ Atom,atom.io
 Auth0,auth0.com
 Automattic Jetpack,jetpack.com
 Automattic WooCommerce,github.com/Automattic/woocommerce-services
+Automotive Grade Linux,www.automotivelinux.org
 Azure,azure.github.io
 Azure SDKs,azure.microsoft.com
 BOSH,bosh.io
@@ -73,11 +74,13 @@ CARTO,carto.com
 CKAN,ksp-ckan.org
 CMS Offline Software,cms-sw.github.io
 CNI,github.com/containernetworking
+CORD,opencord.org
 CSS-TAG Houdini Editor Drafts,drafts.css-houdini.org
 Caffe,github.com/Microsoft/caffe
 CakePHP,cakephp.org
 Campaign finance for everyone,beta.fec.gov/data
 Capirca,github.com/google/capirca
+Carrier Grade Linux,wiki.linuxfoundation.org/cgl/start
 Caseflow,va.gov
 Cataclysm-DDA,en.cataclysmdda.com
 Checked C,microsoft.com/en-us/research/project/checked-c
@@ -85,18 +88,22 @@ Chef,chef.io/chef
 Choosealicense.com,choosealicense.com
 Chromium,google.com/chrome
 Chromium Blink,chromium.org/blink
+Civil Infrastructure Platform,www.cip-project.org
 Closure Library,code.google.com/closure/library
 Cloud Foundry,cloudfoundry.org
 Cloud Foundry Dashboard,dashboard.fr.cloud.gov
+Cloud Native Computing Foundation,Cloud Native Computing Foundation
 Cloud.gov,github.com/18F/cg-product
 Cockroach Labs,cockroachlabs.com
 Cocos2d-js,cocos2d-x.org
 Cocos2d-x,cocos2d-x.org
+Code Aurora,www.codeaurora.org
 CodeCombat,codecombat.com
 CodePush,codepush.tools
 Computing for Computer Scientists,c4cs.github.io
 Consul,consul.io
 Consumer Financial Protection Bureau,cfpb.github.io
+Core Infrastructure Initiative,www.coreinfrastructure.org
 CoreDNS,coredns.io
 CoreOS,coreos.com
 Corsica,corsica.mozilla.io
@@ -111,6 +118,7 @@ DefinitelyTyped,definitelytyped.org
 Digital Transformation Office,dta.gov.au
 DirectX,microsoft.com/en-us/download/search.aspx?q=directx
 Docker,mobyproject.org
+Dronecode,www.dronecode.org
 DuckDuckGo,duckduckhack.com
 DuckDuckHack,duckduckhack.com
 Dynamics NAV,microsoft.com/en-us/dynamics365/nav-overview
@@ -135,6 +143,8 @@ Error Prone,errorprone.info
 Esri,esri.com
 Ethereum,ethereum.org
 FBI Crime Data Explorer,github.com/18F/crime-data-explorer
+FD.io,fd.io
+FOSSology,www.fossology.org
 Federalist,federalist.18f.gov
 Finagle,twitter.github.io/finagle
 Finatra,twitter.github.io/finatra
@@ -192,15 +202,20 @@ Hubot,hubot.github.com
 Hyper,hyper.is
 Hyperledger Project,hyperledger.org
 IBM Bluemix,bluemix.net
+IO Visor Project,www.iovisor.org
 Inferno,infernojs.org
 InfluxDB,influxdata.com
 InfluxData,influxdata.com
 Intel Open Source Technology Center,01.org
+IoTivity,www.iotivity.org
 Ionic,ionicframework.com
 Iron.io,iron.io
+JS Foundation,js.foundation
+JanusGraph,janusgraph.org
 Joomla,joomla.org
 Julia,julialang.org
 Keybase,keybase.io
+Kinetic Open Storage,www.openkinetic.org
 Kronos GLSL,kronos.org
 Kronos Vulkan,kronos.org
 Kubernetes,kubernetes.io
@@ -212,6 +227,7 @@ Let's Encrypt,letsencrypt.org
 Linguist,github.com/github/linguist
 LinkedIn,linkedin.com
 Linkerd,linkerd.io
+Linux Standard Base,LinuxStandardBase
 Linux kernel,kernel.org
 Linux sunxi,linux-sunxi.org
 Liquid,liquidmarkup.org
@@ -277,15 +293,29 @@ Node.js,nodejs.org
 Nomad,nomadproject.io
 Nunjucks,mozilla.github.io/nunjucks
 Nylas,nylas.com
+ODPi,www.odpi.org
+ONOS,onosproject.org
 OPAM,opam.ocaml.org
+OPNFV,www.opnfv.org
 Odoo,odoo.com
 Office Developer,dev.office.com
+Open API Initiative,www.openapis.org
+Open Accessibility (A11y) Group,onosproject.org
 Open Build Service,openbuildservice.org
+Open Container Initiative,www.opencontainers.org
+Open Mainframe Project,www.openmainframeproject.org
 Open Management Infrastructure,github.com/Microsoft/omi
+Open Network Automation Platform,www.onap.org
+Open Security Controller,opensecuritycontroller
 Open Source Guides,opensource.guide
 Open Source Survey,opensourcesurvey.org
+Open vSwitch,openvswitch.org
+OpenDaylight,www.opendaylight.org
+OpenHPC,openhpc.community
 OpenHTF,github.com/google/openhtf
+OpenMAMA,www.openmama.org
 OpenRCT2,openrct2.website
+OpenSDS,www.opensds.io
 OpenSSL,openssl.org
 OpenShift,openshift.com
 OpenStack (other),openstack.org
@@ -318,6 +348,7 @@ OpenStack Stackalytics,openstack.org
 OpenStack Swift,openstack.org
 OpenStack Tools,openstack.org
 OpenStack Web,openstack.org
+OpenSwitch,www.openswitch.net
 OpenTracing,opentracing.io
 OpenWrt,openwrt.org
 Openstack Tools,openstack.org
@@ -325,6 +356,7 @@ Operations Research Tools,developers.google.com/optimization
 Osmand,osmand.net
 PACO,pacoapp.com
 PDF.js,github.com/mozilla/pdf.js
+PNDA,pnda.io
 ParadiseSS13,nanotrasen.se/forum
 Parity,github.com/paritytech/parity
 Parse,parseplatform.github.io
@@ -353,12 +385,14 @@ ReactiveX,reactivex.io
 Realm,realm.io
 Record and Replay Framework,rr-project.org
 Resurrection Remix,plus.google.com/communities/109352646351468373340
+RethinkDB,www.rethinkdb.com
 RobotLocomotion,drake.mit.edu
 RocketChat,rocket.chat
 RocksDB,rocksdb.org
 Ruby on Rails,rubyonrails.org
 Rust,rust-lang.org
 SDN,docs.microsoft.com/en-us/windows-server/networking/sdn/software-defined-networking
+SNAS.io,www.snas.io
 SQL Server,microsoft.com/en-us/sql-server/sql-server-2016
 SS13,tgstation13.org
 SVG Working Group,github.com/w3c/svgwg
@@ -378,6 +412,7 @@ Shopify Docs,help.shopify.com
 Shopify SDKs,developers.shopify.com
 Shopify Timber,shopify.com/timber
 Skillcrush,skillcrush.com
+Software Package Data Exchange,spdx.org
 Specberus,w3.org/pubrules
 SpiderNode,ehsanakhgari.org/blog/2016-04-20/project-spidernode
 Spontanizer,spartan.org.il
@@ -387,6 +422,7 @@ Superset,github.com/airbnb/superset
 Swagger,swagger.io
 Symfony,symfony.com
 TEAMMATES,teammatesv4.appspot.com
+TODO group,todogroup.org
 TSLint,palantir.github.io/tslint
 Team Kodi,kodi.tv
 TeamPorcupine,github.com/TeamPorcupine/ProjectPorcupine
@@ -403,6 +439,7 @@ Theme Kit,shopify.github.io/themekit
 Thimble,thimble.mozilla.org
 Thrifty,github.com/Microsoft/thrifty
 Timed Text Markup Language,w3c.github.io/ttml2/spec/ttml2.html
+Tizen,www.tizen.org
 Toxiproxy,toxiproxy.io
 Trillian,github.com/google/trillian
 TrinityCore,trinitycore.org
@@ -457,6 +494,7 @@ Yogstation13,yogstation.net
 ZEIT,zeit.co
 Zalando,tech.zalando.com
 Zend Framework,framework.zend.com
+Zephyr Project,www.zephyrproject.org
 Zypper,en.opensuse.org/Portal:Zypper
 advocacy.mozilla.org,advocacy.mozilla.org
 bedrock,mozilla.org

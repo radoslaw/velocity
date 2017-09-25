@@ -38,7 +38,7 @@ from
 where
   (
     org.login in (
-      'alljoyn','cip-project','cloudfoundry','cncf','codeaurora-unofficial','coreinfrastructure','Dronecode',
+      'alljoyn','cip-project','cloudfoundry','codeaurora-unofficial','coreinfrastructure','Dronecode',
       'edgexafoundry','fdio-stack','fluent','fossology','frrouting','grpc','hyperledger','iovisor','iotivity',
       'JSFoundation','Kinetic','kubernetes','letsencrypt','linkerd','LinuxStandardBase','nodejs','odpi','OAI',
       'opencontainers','openmainframeproject','opensecuritycontroller','openvswitch','openchain','opendaylight',
@@ -48,7 +48,7 @@ where
     or repo.name in ('automotive-grade-linux/docs-agl','joeythesaint/cgl-specification',
     'containernetworking/cni','containerd/containerd','opencord/cord','cncf/cross-cloud',
     'cregit/cregit','diamon/diamon-www-data','JanusGraph/janusgraph','opennetworkinglab/onos',
-    'brunopulis/awesome-a11y','obrienlabs/onap-root','ni/linux','rkt/rkt','Samsung/TizenRT'
+    'brunopulis/awesome-a11y','obrienlabs/onap-root','ni/linux','rkt/rkt','Samsung/TizenRT','torvalds/linux'
     )
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')

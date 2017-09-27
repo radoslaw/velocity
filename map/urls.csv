@@ -138,6 +138,7 @@ Eddystone,github.com/google/eddystone
 Elasticsearch,elastic.co/products/elasticsearch
 Ember.js,emberjs.com
 Encrypted Media Extensions,w3c.github.io/encrypted-media
+Envoy,github.com/envoyproxy
 Enzyme,airbnb.io/enzyme
 Error Prone,errorprone.info
 Esri,esri.com
@@ -211,6 +212,7 @@ IoTivity,www.iotivity.org
 Ionic,ionicframework.com
 Iron.io,iron.io
 JS Foundation,js.foundation
+Jaeger,github.com/jaegertracing
 JanusGraph,janusgraph.org
 Joomla,joomla.org
 Julia,julialang.org

@@ -9,3 +9,5 @@ containerd
 CNI
 Linkerd
 CoreDNS
+Envoy
+Jaeger

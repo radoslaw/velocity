@@ -20,12 +20,8 @@ select
   SUM(IF(type = 'IssuesEvent', 1, 0)) as issues,
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.email'), '"', ''), '(null)') as author_email,
   IFNULL(REPLACE(JSON_EXTRACT(payload, '$.commits[0].author.name'), '"', ''), '(null)') as author_name
-from 
+from
   (select * from
-    [githubarchive:month.201605],
-    [githubarchive:month.201606],
-    [githubarchive:month.201607],
-    [githubarchive:month.201608],
     [githubarchive:month.201609],
     [githubarchive:month.201610],
     [githubarchive:month.201611],
@@ -33,17 +29,20 @@ from
     [githubarchive:month.201701],
     [githubarchive:month.201702],
     [githubarchive:month.201703],
-    [githubarchive:month.201704]
+    [githubarchive:month.201704],
+    [githubarchive:month.201705],
+    [githubarchive:month.201706],
+    [githubarchive:month.201707],
+    [githubarchive:month.201708]
   )
 where
   (
     org.login in (
-      'kubernetes', 'prometheus', 'opentracing', 'fluent', 'linkerd', 'grpc', 'containerd',
-      'rkt', 'kubernetes-client'/*, 'kubernetes-contrib', 'kubernetes-cluster-automation'*/,
-      'kubernetes-incubator'/*, 'kubernetes-ui'*/, 'coredns', 'grpc-ecosystem', 'containernetworking',
-      'envoyproxy', 'jaegertracing'
+      'kubernetes', 'prometheus', 'opentracing', 'linkerd', 'fluent/fluentd', 'grpc', 'containerd',
+      'rkt', 'kubernetes-client','coredns', 'grpc-ecosystem', 'containernetworking', 'envoyproxy', 'jaegertracing'
     )
-    or repo.name in ('docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 'GoogleCloudPlatform/kubernetes-workshops')
+    or repo.name in ('docker/containerd', 'coreos/rkt', 'GoogleCloudPlatform/kubernetes', 
+      'GoogleCloudPlatform/kubernetes-workshops')
   )
   and type in ('IssueCommentEvent', 'PullRequestEvent', 'PushEvent', 'IssuesEvent')
   and actor.login not like '%bot%'
@@ -55,8 +54,18 @@ where
         actor.login,
         COUNT(*) c
       FROM
-      [githubarchive:month.201703],
-      [githubarchive:month.201704]
+    [githubarchive:month.201609],
+    [githubarchive:month.201610],
+    [githubarchive:month.201611],
+    [githubarchive:month.201612],
+    [githubarchive:month.201701],
+    [githubarchive:month.201702],
+    [githubarchive:month.201703],
+    [githubarchive:month.201704],
+    [githubarchive:month.201705],
+    [githubarchive:month.201706],
+    [githubarchive:month.201707],
+    [githubarchive:month.201708]
       WHERE
         type = 'IssueCommentEvent'
       GROUP BY
@@ -74,4 +83,3 @@ order by
   activity desc
 limit 10000
 ;
-

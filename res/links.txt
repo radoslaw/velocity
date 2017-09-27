@@ -36,6 +36,12 @@ Top 30 projects January 2016 - April 2017 (no linux motion logaritmic): https://
 Top 30 projects January 2016 - March 2017 (no linux motion non-cumulative): https://docs.google.com/spreadsheets/d/1MQ1fwg73EhV-zXrNCJUgHZxY7b_VoO1RF8efNBO88ss/edit?usp=sharing
 Top 30 projects January 2015 - March 2017 (no linux motion quarters cumulative): https://docs.google.com/spreadsheets/d/1IS0D_phB7JtpdUlw9e8kbYMXyIyPQMrDLb_gdvb0Q5g/edit?usp=sharing
 
+bubble chart of CNCF as listed on this site: https://www.cncf.io/projects/
+data for 2016/09-2017/08 - https://docs.google.com/spreadsheets/d/1WcaoUW1qnfE3uutEmCBWoUzItaCwyFhzYQj_r7LaxVU/edit#gid=1902483284
+
+bubble chart of Linux Foundation projects listed on this site (1 not found, 2 not included as they are not on GitHub): https://www.linuxfoundation.org/projects/ 
+data for 2016/09-2017/08 - https://docs.google.com/spreadsheets/d/1_yNtuxK6ydprp9FaWdrJ_ZtJuYWVHz1xhKMjyfmVLEM/edit#gid=1381312348
+
 Channel with motion videos:
 https://www.youtube.com/channel/UCrPtToB7GZdY0vHW_2dh65g
 
